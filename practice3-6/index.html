@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Ocean — пространство для идей и знаний. Собирай конспекты, материалы и личные проекты во вложенные страницы и делись документами по ссылке." />
+  <meta name="theme-color" content="#0077b6" />
+  <title>Ocean — пространство для идей и знаний</title>
+  <link rel="icon" href="./assets/logo_light.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="./styles.css" />
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
+  <header class="navbar">
+    <a class="logo" href="#" aria-label="Ocean — главная"><img class="logo-light" src="./assets/logo_light.svg" width="45" height="45" alt="" /><img class="logo-dark" src="./assets/logo_dark.svg" width="45" height="45" alt="" /><span>cean</span></a>
+    <nav class="navigation" aria-label="Основная навигация">
+      <a class="nav-link" href="#features">Возможности</a><a class="nav-link" href="#inside">Интерфейс</a><a class="nav-link" href="#faq">Вопросы</a>
+      <a class="button nav-cta" href="https://ocean-six-murex.vercel.app/">Открыть Ocean <span aria-hidden="true">↗</span></a>
+      <div class="theme-switcher" hidden>
+        <button class="theme-toggle" type="button" aria-label="Выбрать тему" aria-expanded="false" aria-controls="theme-options">
+          <svg class="sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg>
+          <svg class="moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20.9 13A9 9 0 0 1 11 3.1 9 9 0 1 0 20.9 13Z"/></svg>
+        </button>
+        <div class="theme-options" id="theme-options" hidden><button type="button" data-theme="light">Светлая</button><button type="button" data-theme="dark">Тёмная</button><button type="button" data-theme="system">Системная</button></div>
+      </div>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">OCEAN / ТВОЁ ЦИФРОВОЕ ПРОСТРАНСТВО</p>
+          <h1 id="hero-title">Идеям нужно<br />своё <span class="gradient-text">место.</span></h1>
+          <p class="hero-description">Собирай заметки, знания и личные проекты в Ocean. От первой мысли до готового документа — в одном пространстве.</p>
+          <div class="hero-actions"><a class="button" href="https://ocean-six-murex.vercel.app/">Попробовать Ocean <span aria-hidden="true">↗</span></a><a class="text-link" href="#inside">Посмотреть, как это выглядит <span aria-hidden="true">↓</span></a></div>
+          <p class="hero-note">Для учёбы, работы и собственных идей. Прямо в браузере.</p>
+        </div>
+        <div class="workspace-preview" aria-label="Пример организации личного проекта в Ocean">
+          <div class="preview-top"><span class="window-dots" aria-hidden="true">● ● ●</span><span>Моё пространство</span><span aria-hidden="true">↗</span></div>
+          <div class="preview-body">
+            <div class="preview-sidebar" aria-hidden="true"><strong>Ocean</strong><span>⌕ &nbsp; Поиск</span><span>＋ &nbsp; Новая страница</span><span class="preview-selected">▤ &nbsp; Личный проект</span><span>▤ &nbsp; Конспекты</span><span>▤ &nbsp; Банк идей</span></div>
+            <div class="preview-document"><span class="document-icon" aria-hidden="true">🌊</span><p class="preview-title">Большая идея<br />начинается здесь</p><p class="preview-muted">Личный проект / Заметки</p><div class="preview-rule"></div><strong>План на сегодня</strong><p>☑ &nbsp; Сохранить первую мысль</p><p>☑ &nbsp; Собрать материалы</p><p>☐ &nbsp; Поделиться результатом</p><div class="preview-callout">Место, где мысли обретают структуру.</div></div>
+          </div><p class="preview-caption">Пример наполнения страницы</p>
+        </div>
+      </div>
+      <div class="hero-wave" aria-hidden="true"><svg viewBox="0 0 1440 110" preserveAspectRatio="none"><defs><linearGradient id="ocean-wave"><stop stop-color="#00b4d8"/><stop offset="1" stop-color="#1da770"/></linearGradient></defs><path fill="url(#ocean-wave)" d="M0 55C240 0 320 110 600 60S940 10 1140 55S1340 90 1440 50V110H0Z"/></svg></div>
+    </section>
+
+    <section class="section container" id="about" aria-labelledby="about-title">
+      <div class="section-heading split-heading"><p class="eyebrow">01 / ЗАЧЕМ OCEAN</p><div><h2 id="about-title">Меньше разрозненных записей.<br />Больше ясности.</h2><p>Конспект в одном файле, полезная ссылка в переписке, план проекта в другом приложении. Ocean помогает собрать материалы вокруг того, над чем ты работаешь.</p></div></div>
+      <div class="benefits">
+        <article><span class="item-number">01</span><h3>Контекст под рукой</h3><p>Храни план, заметки и материалы проекта рядом. Вложенные страницы помогают видеть, как всё связано.</p></article>
+        <article><span class="item-number">02</span><h3>Своя структура</h3><p>Начни с чистой страницы и добавляй нужные блоки: текст, списки, таблицы, изображения или код.</p></article>
+        <article><span class="item-number">03</span><h3>Результат, которым можно поделиться</h3><p>Опубликуй готовый документ по ссылке для просмотра или сохрани его в PDF.</p></article>
+      </div>
+      <div class="value-statement"><span class="eyebrow">ВСЁ ВОКРУГ ТВОЕЙ ИДЕИ</span><p>Заметки, дерево страниц и публикация по ссылке в одном рабочем пространстве — от сбора материалов до готового результата.</p></div>
+    </section>
+
+    <section class="section section-tinted" id="features" aria-labelledby="features-title"><div class="container">
+      <div class="section-heading"><p class="eyebrow">02 / ВОЗМОЖНОСТИ</p><h2 id="features-title">Всё нужное для работы с мыслями</h2><p>Инструменты, которые помогают записать, упорядочить и сохранить важное.</p></div>
+      <div class="features-grid">
+        <article class="feature"><span class="feature-symbol" aria-hidden="true">Aa</span><h3>Блочный редактор</h3><p>Сочетай заголовки, списки, таблицы и блоки кода на одной странице.</p></article>
+        <article class="feature"><span class="feature-symbol" aria-hidden="true">▤</span><h3>Вложенные страницы</h3><p>Разделяй большие темы на части и собирай собственную базу знаний.</p></article>
+        <article class="feature"><span class="feature-symbol" aria-hidden="true">⌕</span><h3>Поиск по страницам</h3><p>Находи нужный документ по названию, когда записей становится больше.</p></article>
+        <article class="feature"><span class="feature-symbol" aria-hidden="true">↗</span><h3>Публикация по ссылке</h3><p>Открывай готовые страницы для просмотра другим людям. Доступом управляешь ты.</p></article>
+        <article class="feature"><span class="feature-symbol feature-symbol-small" aria-hidden="true">PDF</span><h3>Экспорт в PDF</h3><p>Сохраняй документ отдельным файлом, чтобы отправить или использовать вне приложения.</p></article>
+        <article class="feature"><span class="feature-symbol" aria-hidden="true">↶</span><h3>Корзина и восстановление</h3><p>Возвращай удалённые страницы из корзины, если они снова понадобились.</p></article>
+      </div>
+    </div></section>
+
+    <section class="section container" id="inside" aria-labelledby="inside-title">
+      <div class="section-heading"><p class="eyebrow">03 / ВНУТРИ OCEAN</p><h2 id="inside-title">Пространство, которое наполняешь ты</h2><p>Так выглядит текущая версия Ocean. Реальные скриншоты редактора и поиска по страницам.</p></div>
+      <div class="showcase">
+        <figure class="screenshot screenshot-main"><a href="./assets/screen4.png" target="_blank" rel="noopener" aria-label="Открыть скриншот редактора в полном размере, в новой вкладке"><img src="./assets/screen4.png" alt="Страница Ocean с блоком кода, заголовком, списком, таблицей и изображением" loading="lazy" width="1885" height="1009" /></a><figcaption><span>01 / РЕДАКТОР</span>Текст, код и визуальные материалы на одной странице. Нажми на изображение, чтобы рассмотреть.</figcaption></figure>
+        <div class="showcase-secondary"><div><h3>Найти нужное и продолжить</h3><p>Дерево документов держит структуру перед глазами, а поиск по названиям помогает быстро вернуться к нужной странице.</p><a class="text-link" href="https://ocean-six-murex.vercel.app/">Посмотреть в приложении <span aria-hidden="true">↗</span></a></div><figure class="screenshot"><a href="./assets/screen2.png" target="_blank" rel="noopener" aria-label="Открыть скриншот поиска в полном размере, в новой вкладке"><img src="./assets/screen2.png" alt="Окно поиска Ocean со списком найденных страниц и деревом документов в боковой панели" loading="lazy" width="1881" height="1005" /></a><figcaption><span>02 / ПОИСК</span>Документы находятся по названию.</figcaption></figure></div>
+      </div>
+    </section>
+
+    <section class="section section-navy" id="for-whom" aria-labelledby="audience-title"><div class="container">
+      <div class="section-heading"><p class="eyebrow">04 / ДЛЯ КОГО</p><h2 id="audience-title">У каждого свой Ocean</h2><p>Одна рабочая среда для разных задач. Выбери, с чего начать.</p></div>
+      <div class="audience-grid">
+        <article><span class="item-number">/01</span><h3>Студентам</h3><p>Собирай конспекты по предметам, ссылки на источники и материалы для курсовой.</p><span class="audience-example">Семестр → Предмет → Конспект</span></article>
+        <article><span class="item-number">/02</span><h3>Разработчикам</h3><p>Веди технические заметки, сохраняй фрагменты кода и описывай решения для проекта.</p><span class="audience-example">Проект → Документация → Решение</span></article>
+        <article><span class="item-number">/03</span><h3>Фрилансерам</h3><p>Храни брифы и рабочие записи. Делись готовым описанием проекта по ссылке.</p><span class="audience-example">Проект → Бриф → Результат</span></article>
+      </div>
+    </div></section>
+
+    <section class="section container" id="how-it-works" aria-labelledby="steps-title">
+      <div class="section-heading"><p class="eyebrow">05 / ПЕРВЫЕ ШАГИ</p><h2 id="steps-title">От мысли к первой странице</h2></div>
+      <ol class="steps"><li><span class="step-number" aria-hidden="true">1</span><h3>Открой Ocean</h3><p>Перейди в приложение и войди в аккаунт или зарегистрируйся.</p></li><li><span class="step-number" aria-hidden="true">2</span><h3>Создай страницу</h3><p>Дай ей название, запиши идею и добавь нужные блоки.</p></li><li><span class="step-number" aria-hidden="true">3</span><h3>Собери свой проект</h3><p>Добавляй вложенные страницы. Готовым документом можно поделиться по ссылке или в PDF.</p></li></ol>
+    </section>
+
+    <section class="section section-tinted" id="faq" aria-labelledby="faq-title"><div class="container faq-layout">
+      <div class="section-heading"><p class="eyebrow">06 / ВОПРОСЫ</p><h2 id="faq-title">Перед погружением</h2><p>Несколько деталей о текущей версии продукта.</p></div>
+      <div class="faq-items">
+        <details><summary>Нужно ли что-то устанавливать?</summary><p>Ocean работает в браузере. Для работы с документами понадобится войти в аккаунт в приложении.</p></details>
+        <details><summary>Мои страницы видны всем?</summary><p>По умолчанию документы доступны владельцу аккаунта. Если опубликовать страницу, её смогут просматривать люди, у которых есть ссылка. Публикацию можно отменить.</p></details>
+        <details><summary>Можно редактировать документ вместе?</summary><p>В текущей версии есть личное пространство и публикация страниц для просмотра. Совместное редактирование пока не заявлено как доступная функция.</p></details>
+        <details><summary>Есть ли в Ocean искусственный интеллект?</summary><p>AI-помощник — часть концепции развития Ocean. В текущей версии, представленной здесь, доступны инструменты для заметок и документов; встроенного AI пока нет.</p></details>
+        <details><summary>Что делать, если приложение не открывается?</summary><p>Для входа и работы с документами Ocean обращается к внешним сервисам Clerk и Convex. Если они недоступны в твоей сети, попробуй другое подключение или VPN.</p></details>
+      </div>
+    </div></section>
+
+    <section class="section container" id="start" aria-labelledby="start-title"><div class="final-cta"><p class="eyebrow">НАЧНИ С ОДНОЙ ИДЕИ</p><h2 id="start-title">Твоя следующая страница<br />может стать началом чего-то большего.</h2><p>Конспект, личный проект или мысль, которую важно сохранить.<br />Дай ей место в Ocean.</p><a class="button" href="https://ocean-six-murex.vercel.app/">Открыть Ocean <span aria-hidden="true">↗</span></a><p class="cta-note">Переход в веб-приложение · Для создания страниц нужен аккаунт</p></div></section>
+  </main>
+  <footer class="footer container"><a class="footer-brand" href="#">Ocean<span>Пространство для идей и знаний</span></a><div><a href="#features">Возможности</a><a href="#faq">Вопросы</a><a href="https://ocean-six-murex.vercel.app/">В приложение ↗</a></div><p>Учебный стартап-проект Ocean</p></footer>
+</body>
+</html>
